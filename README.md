@@ -1,16 +1,76 @@
-# React + Vite
+# 🕒 Analog + Digital Indian Clock (React + Vite + React-Bootstrap)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant **Analog + Digital Clock** built with **React (Vite)** and **React-Bootstrap**, showing **Indian Standard Time (IST)** with both **analog clock hands** and **digital time + date**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ✅ Analog clock with **hour, minute, and second hands**  
+- ✅ Smooth movement for hands  
+- ✅ Digital clock with **time, date, and day**  
+- ✅ Time zone fixed to **Asia/Kolkata (IST)**  
+- ✅ Responsive layout with **React-Bootstrap**  
+- ✅ **Light/Dark theme toggle**  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Setup & Installation
 
-## Expanding the ESLint configuration
+1. **Create a new Vite React project**
+   ```bash
+   npm create vite@latest my-clock -- --template react
+   cd my-clock
+2.Install dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.npm install react-bootstrap bootstrap
+
+
+4.Import Bootstrap CSS
+Open main.jsx and add:
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+Replace App.jsx code with the provided file (App.jsx in this repo).
+
+5.Run the project
+
+npm run dev
+
+📂 Project Structure
+my-clock/
+├── public/
+├── src/
+│   ├── App.jsx   # Main Clock Component
+│   ├── main.jsx  # Entry point
+│   └── assets/
+├── package.json
+└── README.md
+🎨 UI Preview
+
+Analog Clock inside circular dial with moving hands
+
+Digital Clock showing IST
+
+Theme Toggle for light/dark mode
+
+📌 Notes
+
+This clock runs locally using your system clock, but displays time in Indian Standard Time (UTC+05:30).
+
+You can modify styles inside App.jsx to customize colors, sizes, and animations.
+
+🏷️ Tech Stack
+
+React (Vite)
+
+React-Bootstrap
+
+Bootstrap 5
+
+JavaScript (ES6+)
+
+✨ Author
+
+👩‍💻 Developed by Preetiparna Das
+📌 Made with ❤️ using React + Vite + Bootstrap
