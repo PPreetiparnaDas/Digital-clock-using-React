@@ -3,6 +3,10 @@
 An elegant **Analog + Digital Clock** built with **React (Vite)** and **React-Bootstrap**, showing **Indian Standard Time (IST)** with both **analog clock hands** and **digital time + date**.
 
 ---
+# My Project
+
+This project is hosted on Netlify: [Live Demo](https://tourmaline-basbousa-47ed72.netlify.app)
+
 
 ## 🚀 Features
 - ✅ Analog clock with **hour, minute, and second hands**  
